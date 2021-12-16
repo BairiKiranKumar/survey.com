@@ -1,0 +1,52 @@
+body{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+header,footer{
+    margin: 0 auto;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+header{
+    margin-top: 10%;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer a{
+    color: green;
+}
+/*responsive*/
+@media(max-width:600px){
+    body{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    header,footer{
+        max-width: 400px;
+        margin-right: 80px;
+        margin-left: 20px;
+        border: 1px solid;
+        background-color: black;
+        color: white;
+    }
+    header{
+        margin-top: 10%;
+    }
+    article{
+        margin-right: 50px;
+    }
+    
+    footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer a{
+        color: green;
+    }
+}
